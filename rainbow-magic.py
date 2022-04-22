@@ -32,8 +32,7 @@ for frame in range(7):
     fill(1,1,1)
     oval(350, -150, 300, 300)
     #move color from 0 position to end of list
-    swap = myColorList[0]
-    myColorList.pop(0)
+    swap = myColorList.pop(0)
     myColorList.append(swap)
     
 # saveImage('rainbow.gif')
